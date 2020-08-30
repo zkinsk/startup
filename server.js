@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const exphbs = require('express-handlebars');
+require('dotenv').config();
 
 const routes = require('./routes');
 const PORT = process.env.PORT || 8080;
